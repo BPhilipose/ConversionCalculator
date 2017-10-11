@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // Function for converting volume
+    // Function for converting Length
+    // Function for converting Speed
+    // Function for converting Temp
+    // Function for converting weight
 }
 
