@@ -63,5 +63,19 @@ class ViewController: UIViewController {
     }
     
     // Function for converting weight
+    //lbs-stone
+    func lbsToStone(lbs:Double)->Double{
+        return lbs*0.0714286
+    }
+    func stoneTolbs(stone:Double)->Double{
+        return stone*14
+    }
+    //lbs-kilos
+    func lbsTokg(lbs:Double)->Double{
+        return lbs*0.453592
+    }
+    func kgToLbs(kg:Double)->Double{
+        return kg*2.20462
+    }
 }
 
