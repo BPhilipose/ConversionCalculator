@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     // Function for converting volume
+    
+    // Function for converting Length
     // foot-inches
     func feetToInches(feet:Double)->Double{
         return feet/12.0
@@ -43,12 +45,23 @@ class ViewController: UIViewController {
     func kmToMeters(km:Double)->Double{
         return km/1000
     }
-    
-    // Function for converting Length
-    
     // Function for converting Speed
+    //mph-km/h
+    func mphTokmh(mph:Double)->Double{
+        return mph*1.60934
+    }
+    func kmhToMph(kmh:Double)->Double{
+        return kmh*0.621371
+    }
     
     // Function for converting Temp
+    func fahrenheitToCelcius(fahrenheit:Double)->Double{
+        return (fahrenheit-32)*(1.8)
+    }
+    func celsiusToFahrenheit(celcius:Double)->Double{
+        return (celcius*1.8)+32
+    }
+    
     // Function for converting weight
 }
 
