@@ -14,7 +14,6 @@ import Foundation
 func feetToInches(feet:Double)->Double{
     return feet/12.0
 }
-//inces-foot
 func inchesToFeet(inches:Double)->Double{
     return inches*(0.083)
 }
@@ -26,7 +25,7 @@ func milesToKm(miles:Double)->Double{
     return miles*1.60934
 }
 
-//miles-kilometers
+//meters-kilometers
 func metersToKm(meters:Double)->Double{
     return meters*0.001
 }
@@ -43,6 +42,7 @@ func kmhToMph(kmh:Double)->Double{
 }
 
 // Function for converting Temp
+//farenheit-celcius
 func fahrenheitToCelcius(fahrenheit:Double)->Double{
     return (fahrenheit-32)*(1.8)
 }
